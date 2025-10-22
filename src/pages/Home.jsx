@@ -17,7 +17,10 @@ const Home = () => {
   return  (
   
   //<Button> TESTE</Button>
+  <>
+  <h1> Welcome !!</h1>
   <h1>I have rendered {count} times!</h1>
+  </>
   );
   
 
