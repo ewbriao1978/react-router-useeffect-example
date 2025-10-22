@@ -1,4 +1,7 @@
 import { useState, useEffect } from "react";
+import * as React from 'react';
+
+
 
 const Home = () => {
 
@@ -8,10 +11,14 @@ const Home = () => {
     setTimeout(() => {
       const counter = count + 1;
       setCount(counter);
-    }, 1000);
+    }, 500);
   });
 
-  return  <h1>I have rendered {count} times!</h1>;
+  return  (
+  
+  //<Button> TESTE</Button>
+  <h1>I have rendered {count} times!</h1>
+  );
   
 
 };

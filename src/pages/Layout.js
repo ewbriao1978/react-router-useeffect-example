@@ -6,17 +6,21 @@ const Layout = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <img src="https://reactjs.org/logo-og.png" alt="React Logo" width={50} height={50} />
           </li>
           <li>
-            <Link to="/blogs">Blogs</Link>
+            <Link to="/">Home page</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/blogs">Blogs page</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact page</Link>
           </li>
         </ul>
       </nav>
-
+      <h2> Tela escolhida abaixo: </h2> 
+      <br/>
       <Outlet />
     </>
   )
